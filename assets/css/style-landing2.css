@@ -10,6 +10,12 @@ body{
     color: #2E266F !important;
 }
 
+.active {
+    font-weight: bold !important;
+    border-bottom: #2E266F 5px solid !important;
+  }
+
+
 /* hero section */
 #hero {
     height: 100vh;

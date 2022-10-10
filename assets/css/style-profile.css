@@ -11,6 +11,11 @@ body{
     color: #2E266F !important;
 }
 
+.active {
+    font-weight: bold !important;
+    border-bottom: #2E266F 5px solid !important;
+  }
+
 /* profile */
 .photo{
     height: 80vh;
