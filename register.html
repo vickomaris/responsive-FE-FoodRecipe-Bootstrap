@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mama Recipe</title>
+    <!-- fonts airbnb -->
+    <style>
+      @font-face {
+          font-family: 'airbnb';
+          src: url(/assets/fonts/AirbnbCereal_W_Bd.otf);
+
+          font-family: 'airbnb2';
+          src: url(/assets/fonts/AirbnbCereal_W_Lt.otf);
+      }
+  </style>
+    <!-- fonts Inter -->
+    <link rel="stylesheet" href="/assets/css/style-register.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid ">
+      <div class="row">
+        <!-- leftside -->
+          <div class="col-md-6 leftside">
+              <img src="assets/images/Group697.svg" alt="logo" class="logo">
+          </div>
+          <!-- rightside -->
+          <div class="col-md-6 d-flex align-items-center rightside">
+              <form class="row g-1 m-5">
+                  <h1 class="title">Let’s Get Started !</h1>
+                  <p class="sub-title">Create new account to access all features</p>
+                  <hr>
+                  <label for="name" class="name"> Name</label>
+                  <input type="text" class="form-control" id="inputName" placeholder="Name" />
+                  <label for="email" class="email"> Email address*</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter email address" />
+                    <label for="name" class="phone"> Phone</label>
+                  <input type="text" class="form-control" id="inputPhone" placeholder="Name" />
+                  <label for="password" class="createpassword"> Create New Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Create New Password" />
+                  <label for="password" class="password"> New Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="New Password" />
+                  <div class="form-check">
+                      <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label agree" for="flexCheckDefault">
+                          I agree of term conditions
+                      </label>
+                    </div>
+                    <div class="d-grid gap-2">
+                      <button type="submit" class="btn btn-regis"> 
+                        <a href="/login.html">Register Account</a>
+                      </button>
+                    </div>
+                    <div class="text-center">
+                      <p class="login">Already have account?  <a href="/login.html">  <span style="color:#EFC81A">Log in Here</a></span></p>
+              </form>
+          </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

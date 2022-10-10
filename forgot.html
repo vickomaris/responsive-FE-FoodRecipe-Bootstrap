@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mama Recipe</title>
+    <!-- fonts airbnb -->
+    <style>
+      @font-face {
+          font-family: 'airbnb';
+          src: url(/assets/fonts/AirbnbCereal_W_Bd.otf);
+
+          font-family: 'airbnb2';
+          src: url(/assets/fonts/AirbnbCereal_W_Lt.otf);
+      }
+    </style>
+    <link rel="stylesheet" href="/assets/css/style-forgot.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid ">
+      <div class="row">
+        <!-- leftside -->
+          <div class="col-md-6 leftside">
+              <img src="assets/images/Group697.svg" alt="logo" class="logo">
+          </div>
+          <!-- rightside -->
+          <div class="col-md-5 offset-1 d-flex align-items-center rightside">
+              <form>
+                  <h1 class="title">Forgot Password?</h1>
+                  <p class="sub-title">We just need your registered e-mail address <br>
+                    to send your password resend</p>
+                  <hr class="line">
+                  <label for="email" class="email"> Email </label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="examplexxx@gmail.com" />
+                    <div class="d-grid gap-2">
+                      <button type="submit" class="btn btn-email"> 
+                        <a href="/login.html">Send E-mail</a>
+                      </button>
+                    </div>
+              </form>
+          </div>
+      </div>
+  </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

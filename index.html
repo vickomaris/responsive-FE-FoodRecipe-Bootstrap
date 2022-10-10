@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mama Recipe</title>
+    <style>
+        @font-face {
+            font-family: 'airbnb';
+            src: url(/assets/fonts/AirbnbCereal_W_Bd.otf);
+
+            font-family: 'airbnb2';
+            src: url(/assets/fonts/AirbnbCereal_W_Lt.otf);
+        }
+    </style>
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/style-landing2.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!-- font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#">Mama Recipe</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item mx-5">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link" href="addrecipe.html">Add Recipe</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                </ul>
+                <div class="secondary-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-link"> <a href="login.html" class="nav-link">
+                                <div class="icon">
+                                    <img src="assets/images/Usericon.png" alt=""> login
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- section hero -->
+    <section id="hero">
+        <div class="leftside px-0">
+            <div class="left g-0 ">
+                <div class="col-md-12 d-flex flex-column justify-content-center judul">
+                    <h1 class="title col-md-6">Discover Recipe & Delicious Food</h1>
+                    <div class="input-group flex-nowrap cari">
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa fa-search"> </i></span>
+                        <input type="text" class="form-control " id="cari2" placeholder="search restaurant, food"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+            </div>
+            <div class="decoration">
+                <img src="assets/images/eggsquare.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- section  popular for you-->
+    <section id="hero2">
+        <div class="container-fluid">
+            <div class="kotak">
+                <img src="assets/images/kotak.png" alt="">
+                <h1 class="pfy"> Popular For You !</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column  align-items-center  popularfood">
+                    <img src="assets/images/kotakfood.png" alt="" class="square">
+                    <img src="assets/images/roti.png" alt="" class="bread">
+
+                </div>
+
+                <div class="col-md-4 offset-1 d-flex flex-column  quick">
+                    <h1>Healthy Bone Broth Ramen (Quick & Easy) </h1>
+                    <hr class="line">
+                    <p>Quick + Easy Chicken Bone Broth Ramen - Healthy chicken ramen in a hurry? That’s right!</p>
+                    <button type="button" onclick="window.location.href='detailrecipe.html'"
+                        class="btn d-grid gap-2 col-5  text-white btn-send ">Learn
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new recipe -->
+    <section class="newrecipe">
+        <div class="container-fluid px-0">
+            <div class="kotak2">
+                <img src="assets/images/kotak.png" alt="">
+                <h1 class="pfy2"> New Recipe</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 burgerfood">
+                    <div class="rectangle"></div>
+                    <img src="assets/images/burgernewrecipe.png" alt="" class="burger">
+                </div>
+                <div class="col-md-4 offset-1 d-flex flex-column justify-content-center quick2">
+                    <h1> Healthy Bone Broth Ramen (Quick & Easy)</h1>
+                    <hr class="line">
+                    <p>Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry? That’s right!</p>
+                    <button type="button " class="btn d-grid gap-2 col-5  text-white btn-send ">Learn
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popular recipe -->
+    <section class="poprecipe">
+        <div class="container">
+            <div class="kotak4">
+                <img src="assets/images/kotak.png" alt="">
+                <h1 class="precipe"> Popular Recipe </h1>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 d-flex flex-row justify-content-center">
+                    <div class=" foodbox">
+                        <img src="assets/images/chickenkare.png" alt="" class="gambar">
+                        <p class="col-md-3 titlefood ">
+                            Chicken Kare
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-row justify-content-center">
+                    <div class=" foodbox ">
+                        <img src="assets/images/bomchicken.png" alt="" class="gambar">
+                        <p class="col-md-3 titlefood ">
+                            Bomb Chicken
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-row justify-content-center">
+                    <div class=" foodbox ">
+                        <img src="assets/images/bananasmotiepop.png" alt="" class="gambar">
+                        <p class="col-md-4 titlefood ">
+                            Banana <br> Smothie Pop
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-row justify-content-center">
+                    <div class=" foodbox ">
+                        <img src="assets/images/coffelavacake.png" alt="" class="gambar">
+                        <p class="col-md-3 titlefood ">
+                            Coffe Lava Cake
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-row justify-content-center">
+                    <div class=" foodbox ">
+                        <img src="assets/images/sugarsalmon.png" alt="" class="gambar">
+                        <p class="col-md-3 titlefood ">
+                            Sugar Salmon
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-row justify-content-center">
+                    <div class=" foodbox ">
+                        <img src="assets/images/indiansalad.png" alt="" class="gambar">
+                        <p class="col-md-3 titlefood ">
+                            Indian Salad
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex flex-column justify-content-center align-items-center footer-style">
+                    <h1 class="mb-3">
+                        Eat, Cook, Repeat
+                    </h1>
+                    <p>
+                        Share your best recipe by uploading here !
+                    </p>
+
+                </div>
+                <div class=" d-flex flex-row justify-content-center align-items-center  footer-bottom"
+                    style="background-color:#EFC81A;">
+                    <p class="footer-product  mx-3">
+                        Product
+                    </p>
+                    <p class="footer-company  mx-3">
+                        Company
+                    </p>
+                    <p class="footer-learn  mx-3">
+                        Learn more
+                    </p>
+                    <p class="footer-touch  mx-3">
+                        Get in touch
+                    </p>
+                </div>
+                <!-- <div class="pijar" style="background-color:#EFC81A;">
+                    <p class="text-end  mx-5" >
+                     <i class="fa-regular fa-copyright"></i> Pijar Camp 
+                </p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

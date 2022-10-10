@@ -1,0 +1,162 @@
+body{
+    /* background-color: green !important; */
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+.nav-link{
+    font-family: airbnb;
+    font-size: 18px !important;
+    color: #2E266F !important;
+}
+
+/* profile */
+.photo{
+    height: 80vh;
+    width: 100%;
+}
+
+.fa-pencil{
+    color: yellow;
+    margin-left: 150px;
+}
+
+#collapseExample{
+    width: 500px;
+}
+
+.edit{
+    font-family: airbnb;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #3F3A3A;
+    background-color: #E7E7E7 !important;
+}
+
+.edit a{
+    text-decoration: none !important;
+    color: #3F3A3A;
+}
+
+.edit a:hover{
+    color: #3F3A3A;
+}
+
+.line{
+    margin: 0px !important;
+    border: 1px solid !important;
+    width: 50vh;
+}
+
+.username{
+    font-family: airbnb;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/* menu food */
+/* .menu{
+    height: 40vh;
+} */
+
+.myrecipe{
+    font-family: airbnb;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.savedrecipe{
+    font-family: airbnb;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px ;
+}
+
+.likedrecipe{
+    font-family: airbnb;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.linemenu{
+    border-top: 2px solid !important;
+    width: 100%;
+}
+
+/* .kolom1{
+    margin-right: 100px;
+} */
+
+.foodbox{
+    width: 100%;
+    position: relative;
+}
+
+.gambar{
+    height: 30vh;
+    width: 100%;
+}
+
+.titlefood{
+    position: absolute;
+    font-family: airbnb;
+    font-size: 28px;
+    bottom: 10px;
+    left: 20px;
+    color: #FFFFFF;
+}
+
+
+
+
+/* footer */
+.footer-style p{
+    background-color: #EFC81A;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #707070;
+}
+
+
+@media (max-width: 640px ){
+    /* profile  */
+    #collapseExample{
+        width: 200px;
+    }
+
+    /* menu */
+    .menucostum{
+        margin-left: -50px !important;
+    }
+
+    .myrecipe{
+        font-size: 20px; 
+    }
+
+    .savedrecipe{
+        font-size: 20px; 
+    }
+
+    .likedrecipe{
+        font-size: 20px; 
+    }
+
+    /* footer */
+    .footer-style h1{
+        font-size: 40px;
+    }
+    .footer-style p{
+        font-size: 15px;
+    }
+    
+    .footer-bottom p{
+        font-size: 15px;
+    }
+    
+    }

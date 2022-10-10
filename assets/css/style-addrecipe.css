@@ -1,0 +1,82 @@
+body{
+    /* background-color: green !important; */
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar */
+.nav-link{
+    font-family: airbnb;
+    font-size: 18px !important;
+    color: #2E266F !important;
+}
+
+/* form input */
+.addphoto{
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color:#F6F5F4 ;
+    height: 350px;
+    width: 100%;
+}
+
+.form-control{
+    background-color:#F6F5F4 !important;
+}
+
+.addvideo{
+    border-radius: 10px;
+    background-color:#F6F5F4 ;
+    height: 55px;
+    width: 100%;
+}
+
+
+
+.btn-send{
+    font-family: Inter !important;
+    font-size: 16px;
+    background-color: #EFC81A !important;
+}
+
+
+/* footer */
+.footer{
+    margin-top: 50px;
+}
+.footer-style{
+    height: 50vh;
+    background-color: #EFC81A;
+}
+
+.footer-style h1{
+    font-family: airbnb;
+    color: #2E266F;
+    font-size: 62px;
+}
+
+.footer-style p{
+    font-family: airbnb;
+    color: #707070;
+    font-size: 24px;
+}
+
+.footer-bottom p{
+    font-family: Poppins;
+    font-size: 16px;
+    color: #707070;
+}
+
+@media (max-width: 640px ){
+/* footer */
+.footer-style h1{
+    font-size: 40px;
+}
+.footer-style p{
+    font-size: 20px;
+}
+
+.footer-bottom p{
+    font-size: 15px;
+}
+
+}

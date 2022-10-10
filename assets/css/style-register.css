@@ -1,0 +1,169 @@
+/* leftside */
+.leftside{
+    background-image: linear-gradient(#efc81ac1, #efc81a89),url(/assets/images/image15.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* rightside */
+
+.title{
+    font-family: airbnb;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #EFC81A;
+
+}
+
+.sub-title{
+    /* margin-top: 22px;
+    margin-bottom: 30px !important; */
+    font-family: airbnb;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    color: #8692A6;
+    margin-top: 30px !important;
+}
+
+.name{
+    font-family: airbnb;
+    margin-top:23px;
+    margin-bottom: 13px;
+    color: #696F79;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.email{
+    font-family: airbnb;
+    margin-top:23px;
+    margin-bottom: 13px;
+    color: #696F79;
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+.phone{
+    font-family: airbnb;
+    margin-top:23px;
+    margin-bottom: 13px;
+    color: #696F79;
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+.createpassword{
+    font-family: airbnb;
+    margin-top:23px;
+    margin-bottom: 13px;
+    color: #696F79;
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+.password{
+    font-family: airbnb;
+    margin-top:23px;
+    margin-bottom: 13px;
+    color: #696F79;
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+#inputName:focus {
+    outline: none !important;
+    border: 1px solid #efc81a;
+    box-shadow: 0 0 10px #719ece;
+}
+
+#inputPhone:focus {
+    outline: none !important;
+    border: 1px solid #efc81a;
+    box-shadow: 0 0 10px #719ece;
+}
+
+#inputEmail:focus {
+    outline: none !important;
+    border: 1px solid #efc81a;
+    box-shadow: 0 0 10px #719ece;
+}
+
+#inputPassword:focus {
+    outline: none !important;
+    border: 1px solid #efc81a;
+    box-shadow: 0 0 10px #719ece;
+}
+
+.checkbox{
+    background-color: #EFC81A !important;
+    color: white !important;
+    margin-top: 25.67px !important;
+}
+
+.form-check-label{
+    margin-top: 23px !important;
+}
+
+.btn-regis{
+    background-color: #EFC81A !important;
+    color: white !important;
+    margin-top: 38px;
+    margin-bottom: 24px;
+}
+
+.btn-regis:hover{
+    background-color: #EFC81A !important;
+    color: white !important;
+}
+
+.btn-regis:focus{
+    outline: none !important;
+    border: 1px solid #efc81a;
+    box-shadow: 0 0 10px #719ece;
+}
+
+form div button a {
+    text-decoration: none;
+    color: white !important;
+}
+form div p a{
+    text-decoration: none;
+    color: #EFC81A !important;
+}
+form div a{
+    text-decoration: none;
+    color: #9b9898 !important;
+}
+
+.agree{
+    font-family: airbnb;
+    color: #696F79;
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+.login{
+    font-family: airbnb;
+    color: #999999;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+@media (max-width: 640px ){
+    .leftside{height: 100px;}
+    .logo{height: 100%;}
+}
+
